@@ -2,11 +2,12 @@
 
 ![Linux Port Iteration Result](assets/Linux_Iteration_Demo.png)
 
-Cross-platform serial port library, adhering to the standard library's reader
-and writer interface. All poll (peek) and flush (discard/flush) operations are
-accessible through `std.Io.Reader` and `std.Io.Writer` respectively.
+Cross-platform (Linux and Windows) serial port library, adhering to the 
+standard library's reader and writer interface. All poll (peek) and flush
+(discard/flush) operations are accessible through `std.Io.Reader` and 
+`std.Io.Writer` respectively.
 
-Kept up to date to work with latest Zig stable release (0.15.1).
+Kept up to date to work with latest Zig stable release (0.16.0).
 
 ## Todo
 
